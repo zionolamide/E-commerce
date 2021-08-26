@@ -1,0 +1,352 @@
+#img-preview img {
+    display: block;
+    margin-top: -1px;
+    border-radius: 100%;
+    height: 70px;
+    width: 101%;
+    margin-left: 0px;
+    cursor: pointer;
+}
+
+#img-preview {
+    cursor: pointer;
+    border-radius: 100%;
+    margin-left: 28px;
+    border: 1px solid gray;
+    display: block;
+    width: 80px;
+    height: 70px;
+    margin-top: 20px;
+    color: darkgray;
+    /* padding: 13px 8px 35px 18px; */
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.input {
+    width: 173px;
+    padding: 19px 17px 19px 12px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom-color: darkgray;
+}
+
+.select {
+    width: 0px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    margin-top: -56px;
+    position: absolute;
+    padding: 18px 17px 19px 12px;
+    margin-left: 144px;
+}
+
+.label_image {
+    position: absolute;
+    margin-left: -102px;
+    font-size: 15px;
+    color: #808080;
+    margin-top: 22px;
+}
+
+.my_form {
+    background-color: #FFF;
+    padding: 89px 200px 57px;
+    border-radius: 5px;
+    width: 360px;
+    max-width: 100%;
+    margin: 50px auto;
+    align-self: center;
+    box-sizing: border-box;
+}
+
+.label_subject {
+    position: absolute;
+    margin-left: -128px;
+    margin-top: 18px;
+    font-size: 15px;
+    color: #808080;
+}
+
+.label_upload_by {
+    position: absolute;
+    margin-left: -163px;
+    margin-top: 18px;
+    font-size: 15px;
+    color: #808080;
+}
+
+.label_email {
+    position: absolute;
+    margin-left: -114px;
+    margin-top: 18px;
+    font-size: 15px;
+    color: #808080;
+}
+
+.label_fullname {
+    position: absolute;
+    margin-left: -138px;
+    margin-top: 18px;
+    font-size: 15px;
+    color: #808080;
+}
+
+.headers {
+    width: 346px;
+    margin-left: -173px;
+    border-bottom: 2px solid lightgray;
+}
+
+h1 {
+    font-size: 18px;
+    color: #7A7B7F;
+    margin-top: -184px;
+}
+
+.gradient-button-add {
+    color: #FFF;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    background-image: linear-gradient(to right, #77A1D3 0%, #79CBCA 51%, #77A1D3 100%);
+    box-shadow: 0px 0px 20px #EEE;
+    border-radius: 10px;
+    margin-left: 274px;
+    margin-top: -37px;
+    position: absolute;
+}
+
+.gradient-button-edit {
+    background-image: linear-gradient(to right, #77A1D3 0%, #79CBCA 51%, #77A1D3 100%)
+}
+
+.gradient-button-edit,
+.gradient-button-delete {
+    text-decoration: none;
+    margin: 10px -5px;
+    padding: 7px 28px;
+    text-align: center;
+    transition: all 0.5s ease 0s;
+    background-size: 200% auto;
+    color: rgba(10, 10, 10, 0.686);
+    box-shadow: 0px 0px 20px #EEE;
+    border-radius: 10px;
+    display: block;
+}
+
+.gradient-button-delete {
+    background-image: linear-gradient(to right, #ff6e7f 0%, #bfe9ff 51%, #ff6e7f 100%)
+}
+
+.line2 {
+    width: 145px;
+    margin-left: 25px;
+    border-width: medium medium 2px;
+    border-style: none none solid;
+    border-color: lightgray;
+    border-image: none;
+    margin-top: 222px;
+    position: absolute;
+}
+
+.liness {
+    width: 145px;
+    margin-left: 25px;
+    border-width: medium medium 2px;
+    border-style: none none solid;
+    border-color: lightgray;
+    border-image: none;
+    margin-top: 229px;
+    position: absolute;
+}
+
+.back {
+    position: absolute;
+    margin-top: 212px;
+    margin-left: -17px;
+    color: #808080;
+    text-decoration: none;
+}
+
+.footer_img {
+    position: absolute;
+    margin-top: 198px;
+    width: 40px;
+    height: 33px;
+    margin-left: -18px;
+}
+
+.line1 {
+    width: 145px;
+    margin-left: -169px;
+    border-width: medium medium 2px;
+    border-style: none none solid;
+    border-color: lightgray;
+    border-image: none;
+    margin-top: 222px;
+    position: absolute;
+}
+
+.lines {
+    width: 145px;
+    margin-left: -169px;
+    border-width: medium medium 2px;
+    border-style: none none solid;
+    border-color: lightgray;
+    border-image: none;
+    margin-top: 229px;
+    position: absolute;
+}
+
+.textarea {
+    border: 1px solid grey;
+    border-radius: 4px;
+    margin-top: 2%;
+    margin-left: -8%;
+    position: absolute;
+}
+
+.error {
+    margin-top: 3px;
+    color: rgba(236, 90, 90, 0.952);
+    font-size: 12px;
+    position: absolute;
+    display: flow-root list-item;
+}
+
+.success {
+    font-size: 12px;
+    color: rgba(72, 97, 84, 0.952);
+}
+
+th,
+td {
+    padding: 8px;
+    text-align: center;
+}
+
+td {
+    color: rgb(177, 177, 177);
+    font-size: 12px;
+}
+
+.content_one {
+    color: rgba(0, 0, 0, 0.58);
+    box-shadow: -6px -5px 8px -2px #b8c3d2;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border: 2px solid #d9a9e0;
+    cursor: pointer;
+    width: 39%;
+    margin-top: 10%;
+}
+
+
+/* tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(even):hover {
+    background-color: rgb(217, 167, 247);
+}
+
+tr:nth-child(odd):hover {
+    background-color: rgb(217, 167, 247);
+} */
+
+td {
+    font-size: 12px;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 98%;
+    border: 1px solid #ddd;
+    margin: 1% 0% 0% 1%;
+}
+
+
+/* 
+@media screen and (max-height: 600px) {
+    table {
+        margin: 25% 0% 0% 1%;
+    }
+} */
+
+th {
+    color: gray;
+    font-size: 13px;
+    white-space: nowrap;
+}
+
+.gradient-button-cancel {
+    text-decoration: none;
+    padding: 7px 7px;
+    text-align: center;
+    transition: all 0.5s ease 0s;
+    background-size: 200% auto;
+    color: black;
+    box-shadow: 0px 0px 20px #eee;
+    border-radius: 10px;
+    position: absolute;
+    background-image: linear-gradient(to right, #ff6e7f 0%, #bfe9ff 51%, #ff6e7f 100%);
+    margin-top: 4px;
+    margin-left: 58px;
+}
+
+
+/* Create three equal columns that floats next to each other */
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    margin-top: 60px;
+    /* Should be removed. Only for demonstration */
+}
+
+
+/* Clear floats after the columns */
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+
+@media screen and (max-width: 600px) {
+    /* .column {
+        width: 100%;
+    } */
+    .content_one {
+        color: rgba(0, 0, 0, 0.58);
+        box-shadow: -6px -5px 8px -2px #b8c3d2;
+        border-bottom-right-radius: 20px;
+        border-top-left-radius: 20px;
+        border: 2px solid #d9a9e0;
+        cursor: pointer;
+        width: 80%;
+        margin-top: 10%;
+    }
+}
+
+#myInput {
+    /* background-image: url('../css/searchicon.png'); */
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    width: 90%;
+    font-size: 16px;
+    padding: 12px 20px 12px 40px;
+    border: 1px solid #ddd;
+    margin-top: 27px;
+    border-top-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+}

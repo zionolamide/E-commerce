@@ -1,0 +1,107 @@
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-image: linear-gradient(to right bottom, #ddb1e4 0%, #7BC6CC 51%, #BE93C5 100%);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(227, 244, 245);
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.myspan {
+    cursor: pointer;
+    font-size: 28px;
+    font-weight: bold;
+    position: absolute;
+    color: rgb(202, 220, 241);
+    margin-top: 2px;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial;
+    background-color: rgb(245, 241, 241);
+}
+
+.header {
+    overflow: hidden;
+    background-image: linear-gradient(to right bottom, #BE93C5 0%, #7BC6CC 51%, #BE93C5 100%);
+    padding: 3px 3px;
+    position: fixed;
+    width: 100%;
+}
+
+.header a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+}
+
+span {
+    cursor: pointer;
+    font-size: 30px;
+    color: rgb(202, 220, 241);
+}
+
+.header a.logo {
+    color: rgb(202, 220, 241);
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.header-right {
+    float: right;
+}
+
+@media screen and (max-width: 500px) {
+    .header a {
+        /* float: left; */
+        text-align: left;
+        float: inline-start;
+    }
+    .header-right {
+        float: left;
+    }
+}
